@@ -9,12 +9,12 @@ title: "Teaching"
 #| include = FALSE 
 library(kableExtra)
 
-description <- c("TBD", "TBD")
-autism <- c(" "," ") 
+description <- c("SPED 686: Autism Early Intervention", "TBD")
+autism <- c("X"," ") 
 optimization <- c(" "," ") 
 eds <- c(" "," ") 
-term <- c(" "," ") 
-evaluation <- c(" "," ") 
+term <- c("Winter 2024"," ") 
+evaluation <- c("Dr. Shire"," ") 
 
 competency1 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
 

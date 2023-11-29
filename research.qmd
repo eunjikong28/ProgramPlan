@@ -9,12 +9,12 @@ title: "Research"
 #| include = FALSE 
 library(kableExtra)
 
-description <- c("TBD", "TBD")
-autism <- c(" "," ") 
-optimization <- c(" "," ") 
+description <- c("EDUC 650: Single case study of the impact of observation vs immediate coaching in parent-mediated intervention", "PREV 640: Meta-Analysis on Social Communication Intervention for Autistic Individuals to Promote Initiation of Social Communication")
+autism <- c("X"," ") 
+optimization <- c("X","X") 
 eds <- c(" "," ") 
-term <- c(" "," ") 
-evaluation <- c(" "," ") 
+term <- c("Winter 2023","Spring 2023") 
+evaluation <- c("Dr. Machalicek","Dr. Tanner-Smith") 
 
 competency7 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
 
@@ -69,12 +69,12 @@ competency8 %>%
 ```{r}
 #| include = FALSE 
 
-description <- c("TBD")
-autism <- c(" ") 
+description <- c("A Systematic Review of Data Visualization Tools in Clinical Practice for Evidence-Based Decision Making in Autism Intervention")
+autism <- c("X") 
 optimization <- c(" ") 
-eds <- c(" ") 
-term <- c(" ") 
-evaluation <- c(" ") 
+eds <- c("X") 
+term <- c("Spring 2023") 
+evaluation <- c("Dr. Shire, Dr. Seely, Dr. Zopluoglu") 
 
 competency9 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
 

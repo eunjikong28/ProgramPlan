@@ -14,7 +14,7 @@ autism <- c("X","X")
 optimization <- c("X"," ") 
 eds <- c(" "," ") 
 term <- c("Fall 2022/ Winter 2023","Fall 2023/Winter 2024") 
-evaluation <- c("Shire","(ask)") 
+evaluation <- c("Dr. Shire","(ask)") 
 
 competency2 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
 
@@ -44,7 +44,7 @@ autism <- c("X"," ")
 optimization <- c(" "," ") 
 eds <- c(" "," ") 
 term <- c("Summer 2023"," ") 
-evaluation <- c("Shire"," ") 
+evaluation <- c("Dr. Shire"," ") 
 
 competency4 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
 
@@ -69,9 +69,9 @@ competency4 %>%
 ```{r}
 #| include = FALSE 
 
-description <- c("TBD", "TBD")
-autism <- c(" "," ") 
-optimization <- c(" "," ") 
+description <- c("ask about QABA", "ask about Online JASPER")
+autism <- c("X","X") 
+optimization <- c(" ","X") 
 eds <- c(" "," ") 
 term <- c(" "," ") 
 evaluation <- c(" "," ") 
@@ -101,7 +101,7 @@ competency5 %>%
 
 description <- c("Doctoral Student Representative for the SPED program", "Doctoral Student Representative for the ABA Master’s program")
 term <- c("2023-2025", "2023-2024")
-evaluation <- c("Harn and Nese", "Machalicek")
+evaluation <- c("Drs. Harn and Nese", "Dr. Machalicek")
 
 competency11 <- cbind("Program Task Description" = description, "Term/ Year" = term, Evaluation = evaluation)
 
